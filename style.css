@@ -1,0 +1,60 @@
+
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #fff; /* Texto blanco */
+  background-color: #000; /* Fondo negro */
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem 2%;
+}
+
+/* Título principal */
+h1 {
+  font-size: 2rem; /* 32px = 2 * 16px */
+}
+
+img {
+  height: 40px;
+}
+
+/* Sección principal */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem; /* 1rem = 16px */
+  text-align: left;
+}
+
+h2,
+h3 {
+  margin: 1rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+}
